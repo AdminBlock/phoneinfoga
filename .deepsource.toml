@@ -1,0 +1,35 @@
+version = 1
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "meteor",
+    "angularjs",
+    "vue",
+    "ember",
+    "angular"
+  ]
+  environment = [
+    "nodejs",
+    "mocha",
+    "mongo",
+    "cypress",
+    "jasmine",
+    "browser",
+    "jest",
+    "jquery",
+    "vitest"
+  ]
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/AdminBlock/phoneinfoga"
+  dependencies_vendored = true
